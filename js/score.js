@@ -25,6 +25,8 @@ const updateScore = (winner) => {
 const resetScores = () => {
     p1Score = 0;
     p2Score = 0;
+
+    setScores(p1Score, p2Score);
 }
 
 setScores(p1Score, p2Score)
